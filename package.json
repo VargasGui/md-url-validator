@@ -34,6 +34,6 @@
   "homepage": "https://github.com/VargasGui/md-url-validator.git",
   "dependencies": {
     "chalk": "5.0.1",
-    "md-url-validator-node": "^1.0.0"
+    "md-url-validator-node": "^1.0.1"
   }
 }

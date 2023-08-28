@@ -1,6 +1,6 @@
 {
-  "name": "md-url-validator",
-  "version": "1.0.0",
+  "name": "md-url-validator-node",
+  "version": "1.0.1",
   "description": "Node library that validates URL in .md, displaying URL description and status code",
   "main": ".cli/js",
   "type": "module",
@@ -11,7 +11,7 @@
 
   },
   "bin": {
-    "md-url-validator": "./cli.js"
+    "md-url-validator-node": "./cli.js"
   },
   "preferGlobal": true,
   "repository": {

@@ -1,5 +1,5 @@
 {
-  "name": "md-url-validator",
+  "name": "md-url-validator-node",
   "version": "1.0.0",
   "description": "Node library that validates URL in .md, displaying URL description and status code",
   "main": ".cli/js",
@@ -7,18 +7,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node src/cli.js",
-    "valida":"-- --valida"
-
+    "valida": "-- --valida"
   },
   "bin": {
-    "md-url-validator": "./cli.js"
+    "md-url-validator-node": "./cli.js"
   },
   "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VargasGui/md-url-validator.git"
   },
-  "keywords": ["URL","links","validator", ".md", "markdown", "md"],
+  "keywords": [
+    "URL",
+    "links",
+    "validator",
+    ".md",
+    "markdown",
+    "md"
+  ],
   "author": "Guilherme Vargas <guilherme.vargas1h3@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -27,6 +33,7 @@
   },
   "homepage": "https://github.com/VargasGui/md-url-validator.git",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "5.0.1",
+    "md-url-validator-node": "^1.0.0"
   }
 }
